@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import messagebox, ttk, simpledialog
 import mysql.connector
 
+# Что то там
+
 def quit_app():
     if messagebox.askokcancel("Quit", "Do you really want to quit?"):
         root.destroy()
