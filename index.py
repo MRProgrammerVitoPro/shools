@@ -3,6 +3,7 @@ from tkinter import messagebox, ttk, simpledialog
 import mysql.connector
 
 # Что то там
+# Для теста
 
 def quit_app():
     if messagebox.askokcancel("Quit", "Do you really want to quit?"):
